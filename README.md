@@ -17,9 +17,10 @@ The application periodically performs a list of routines:
 * The result of the function is obtained,
 * The household devices are configured according to the result of the decision function. This is done again through Modbus.
 
-### AI model training
+### AI model evaluation & training
 
 * The steps analogical to the ones related to the decision making,
+* First evaluation function is offloaded, to decide whether retraining is needed,
 * AI model is stored outside of the SEM device, by the COGNIT framework.
 
 ### Sending metrological data to besmart.energy
